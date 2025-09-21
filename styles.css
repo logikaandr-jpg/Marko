@@ -3,23 +3,49 @@ h1{
     text-align: center;
 }
 img {
-    
     width:400px;
-    height: 300px;
+    height: 250px;
     margin: 0 auto;
     display: block;
-    justify-content: space-around;
-
 }
 .boots{
-    text-align: center;  
-    font-size:larger;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: blueviolet;
+    text-align: center;
 }
-html{
-    background-color: purple;
+body{
+    background-color: rgb(255, 255, 255);
+    border: 10px solid purple;
 }
-footer{
-    text-align:center ;
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+            padding: 20px;
+        }
+        .shoe {
+            border: 2px solid #000;
+            padding: 10px;
+            background-color: #fff;
+        }
+        .shoe img {
+            width: 100px;
+            height: 100px;
+        }
+        h1 {
+            color: #ff0000;
+        }
+        p {
+            font-size: 20px;
+            color: #ad17d2;
+        }
+
+nav{
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+
 }
