@@ -3,15 +3,23 @@ h1{
     text-align: center;
 }
 img {
+    
     width:400px;
-    height: 250px;
+    height: 300px;
     margin: 0 auto;
     display: block;
+    justify-content: space-around;
+
 }
 .boots{
-    text-align: center;
+    text-align: center;  
+    font-size:larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blueviolet;
 }
-body{
-    background-color: rgb(255, 255, 255);
-    border: 10px solid purple;
+html{
+    background-color: purple;
+}
+footer{
+    text-align:center ;
 }
