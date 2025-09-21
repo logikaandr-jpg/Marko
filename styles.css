@@ -1,0 +1,25 @@
+h1{
+    color: purple;
+    text-align: center;
+}
+img {
+    
+    width:400px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    justify-content: space-around;
+
+}
+.boots{
+    text-align: center;  
+    font-size:larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blueviolet;
+}
+html{
+    background-color: purple;
+}
+footer{
+    text-align:center ;
+}
